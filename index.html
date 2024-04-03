@@ -24,6 +24,7 @@
   </div>
   
     <div id="timeline">
+        
       <div class="timeline-date">Today</div>
 
 <div class="timeline-item">
@@ -31,9 +32,10 @@
         <img src="PDF_file_icon.svg" alt="Download 1">
     </div>
     <div class="right-block">
-        <p><a href="path/to/your/pdf_file.pdf" target="_blank">invoice 1231231_pdf</a></p>
+        <p class="download-link text">PDF</p>
+        <p class="download-size">www.pdf.io.com</p>
         <br>
-        <p>www.pdf.io.com</p>
+        <p class="download-action text"><a href="path/to/your/pdf_file.pdf" target="_blank">Show in Folder</a></p>
     </div>
 </div>
       <div class="timeline-date">Yesterday</div>
@@ -42,10 +44,11 @@
     <div class="left-block">
         <img src="sm_5afec9fcbc83b.webp" alt="Download 1">
     </div>
-    <div class="right-block">
-        <p><a href="path/to/your/pdf_file.pdf" target="_blank">video_343543</a></p>
+    <div class="right-block ">
+        <p class="download-link text">File 2</p>
+        <p class="download-size">100KB </p>
         <br>
-        <p>MediaPlayer</p>
+        <p class="download-action text"><a href="path/to/your/pdf_file.pdf" target="_blank">Show in Folder</a></p>
     </div>
 </div>
       <div class="timeline-date">April 1, 2024</div>
@@ -55,9 +58,10 @@
         <img src="sm_5afec9fcbc83b.webp" alt="Download 1">
     </div>
     <div class="right-block">
-        <p><a href="path/to/your/pdf_file.pdf" target="_blank">media234234_v</a></p>
+        <p class="download-link text">media234234_v</a></p>
+        <p class="download-size">https://products.app </p>
         <br>
-        <p>Media Player</p>
+        <p class="download-action text"><a href="path/to/your/" target="_blank">Show in Folder</a></p>
     </div>
 </div>
 <div class="timeline-item">
@@ -65,12 +69,75 @@
         <img src="PDF_file_icon.svg" alt="Download 1">
     </div>
     <div class="right-block">
-        <p><a href="path/to/your/pdf_file.pdf" target="_blank">invoice 1231231_pdf</a></p>
+        <p class="download-link text">invoice 1231231_pdf</a></p>
+        <p class="download-size"></p>
         <br>
-        <p>www.pdf.kh.com</p>
+        <p class="download-action text"><a href="path/to/your/pdf_file.pdf" target="_blank">Show i Folder</p>
     </div>
 </div>
     </div>
+    
+<!-- <input type="checkbox" id="modal-toggle">
+<div class="modal">
+  
+  <div class="modal-content">
+    <label class="close" for="modal-toggle">&times;</label>
+    <h2>This is a Modal</h2>
+    <div class="timeline-item">
+        <div class="left-block">
+            <img src="PDF_file_icon.svg" alt="Download 1">
+        </div>
+        <div class="right-block">
+            <p><a href="path/to/your/pdf_file.pdf" target="_blank">invoice 1231231_pdf</a></p>
+            <br>
+            <p>www.pdf.kh.com</p>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <div class="left-block">
+            <img src="PDF_file_icon.svg" alt="Download 1">
+        </div>
+        <div class="right-block">
+            <p><a href="path/to/your/pdf_file.pdf" target="_blank">invoice 1231231_pdf</a></p>
+            <br>
+            <p>www.pdf.kh.com</p>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <div class="left-block">
+            <img src="PDF_file_icon.svg" alt="Download 1">
+        </div>
+        <div class="right-block">
+            <p><a href="path/to/your/pdf_file.pdf" target="_blank">invoice 1231231_pdf</a></p>
+            <br>
+            <p>www.pdf.kh.com</p>
+        </div>
+    </div>
+    <button class="save-btn">Save</button>
+  </div>
+</div>
+<label class="bottom-right-btn" for="modal-toggle">&#43;</label> -->
+
+<input type="checkbox" id="popup-toggle" style="display: none" />
+    <div class="blur-background"></div>
+    <div class="popup-form">
+      <label for="popup-toggle"
+        ><img class="close-button" src="closebutton.jpg" alt=""
+      /></label>
+      <div class="popup-title">Add a file</div>
+      <form action="#">
+        <div class="file-name"><label>File name</label></div>
+        <input class="file-name-input" type="text" />
+        <div class="file-link"><label>Link</label></div>
+        <input class="file-link-input" type="text" />
+        <input class="choose-file" type="file" />
+        <label class="save-button" for="popup-toggle">Save</label>
+        <label class="cancel-button" for="popup-toggle">Cancel</label>
+      </form>
+    </div>
+    <label for="popup-toggle" class="plus-label">
+      <img class="plus-icon" src="plusicon.png" alt="" />
+    </label>
  </body>
 
 </html>
